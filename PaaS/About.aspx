@@ -7,19 +7,15 @@
     <title>nextgen-About</title>
     <style type="text/css">
         .auto-style1 {
-            height: 596px;
+            height: 626px;
         }
         .auto-style2 {
             width: 795px;
             height: 95px;
         }
         .auto-style3 {
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-        .auto-style4 {
-            width: 661px;
-            height: 399px;
+            width: 675px;
+            height: 347px;
         }
     </style>
 </head>
@@ -28,14 +24,15 @@
         <div style="text-align: center">
             <img alt="Logo" class="auto-style2" src="Images/Logo.png" /></div>
             
-        <p style="font-family: Arial; font-size: small; text-align: center">&nbsp;
+        <p style="font-family: Arial; font-size: small; text-align: center">&nbsp;<asp:TextBox ID="TextBox1" runat="server" BackColor="Transparent" BorderStyle="None" Rows="1" Font-Names="Arial" Font-Size="Small" Height="97px" TextMode="MultiLine" Width="720px">Azure PaaS MVP is a two tier LOB solution - frontend web server (IIS) and a backend DB (MSSQL). The ASP.NET web application is running as Azure WebApp on a Free App Service Plan and connects to backend Azure SQL DB running on Basic (5 DTUs) price tier to perform read and write operations.
 
-            ASP.NET web application is running on frontend web server (IIS) and performs read/write to <span class="auto-style3">backend SQL server DB.</span></p>
+Azure PaaS functional diagram:</asp:TextBox>
+        </p>
         <p style="font-family: Arial; font-size: small; text-align: center">
-            <img alt="Diagram" class="auto-style4" src="Images/Diagram.png" /></p>
+            <img alt="Diagram" class="auto-style3" src="Images/Diagram-PaaS.png" /></p>
 
-                <p>
-                    &nbsp;</p>
+        <p>
+                &nbsp;</p>
         <p>
                 <asp:Table ID="Table2" runat="server" HorizontalAlign="Center">
             <asp:TableRow runat="server">

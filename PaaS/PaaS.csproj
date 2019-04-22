@@ -70,9 +70,11 @@
     <Content Include="About.aspx" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="bin\PaaS.dll" />
+    <Content Include="bin\PaaS.pdb" />
     <Content Include="Contacts.aspx" />
     <Content Include="Default.aspx" />
-    <Content Include="Images\Diagram.png" />
+    <Content Include="Images\Diagram-PaaS.png" />
     <Content Include="Images\Hexagons.png" />
     <Content Include="Images\Line.png" />
     <Content Include="Images\Logo.png" />
@@ -103,7 +105,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Install\nextgen_update.ps1" />
+    <Content Include="bin\PaaS.dll.config" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\nextgenpaas - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
